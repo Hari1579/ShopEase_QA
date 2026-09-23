@@ -1,0 +1,33 @@
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+
+# Test reports
+reports/*.html
+
+# Playwright
+test-results/
+playwright-report/
+
+# Local API database
+*.db
+
+# Robot Framework generated files
+output.xml
+log.html
+report.html
+
+# IDE
+.vscode/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Selenium screenshots
+selenium-screenshot-*.png
